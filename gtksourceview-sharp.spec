@@ -1,7 +1,7 @@
 %define name    gtksourceview-sharp
 %define oname %name-2.0
-%define version 0.10
-%define release %mkrel 7
+%define version 0.11
+%define release %mkrel 1
 %if %mdkversion >= 200600
 %define pkgconfigdir %_datadir/pkgconfig
 %else
@@ -16,14 +16,13 @@ Source:        http://go-mono.com/sources/gtksourceview-sharp-2.0/%oname-%versio
 URL:           http://www.go-mono.com
 License:       LGPL
 Group:         System/Libraries
-Requires:      gtksourceview >= 0.7
-BuildRequires: gtksourceview-devel >= 0.7
+Requires:      gtksourceview1.0
+BuildRequires: gtksourceview1-devel
 BuildRequires: gnome-sharp2
 BuildRequires: mono-tools
 BuildRequires: mono-devel
 BuildRoot:     %{_tmppath}/%{name}-%{version}-buildroot
 BuildArch: noarch
-Requires: libgtksourceview
 
 %description 
 GtkSourceView-sharp is a C# language binding for the gtksourceview widget.
