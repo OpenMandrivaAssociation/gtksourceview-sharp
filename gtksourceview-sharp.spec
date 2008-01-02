@@ -21,6 +21,7 @@ BuildRequires: gtksourceview1-devel
 BuildRequires: gnome-sharp2
 BuildRequires: mono-tools
 BuildRequires: mono-devel
+BuildRoot:     %{_tmppath}/%{name}-%{version}-buildroot
 BuildArch: noarch
 %define _requires_exceptions ^lib.*
 
