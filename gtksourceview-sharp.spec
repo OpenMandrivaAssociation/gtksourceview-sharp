@@ -8,7 +8,7 @@
 %define pkgconfigdir %_libdir/pkgconfig
 %endif
 %define monoprefix %_prefix/lib
-Summary:       GtkSourceView-sharp is a C# language binding for the gtksourceview widget
+Summary:       C# language binding for the gtksourceview widget
 Name:          %{name}
 Version:       %{version}
 Release:       %{release}
