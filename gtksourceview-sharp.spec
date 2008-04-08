@@ -1,7 +1,7 @@
 %define name    gtksourceview-sharp
 %define oname %name-2.0
-%define version 0.11
-%define release %mkrel 2
+%define version 0.12
+%define release %mkrel 1
 %if %mdkversion >= 200600
 %define pkgconfigdir %_datadir/pkgconfig
 %else
@@ -18,7 +18,7 @@ License:       LGPL
 Group:         System/Libraries
 Requires:      gtksourceview1.0
 BuildRequires: gtksourceview1-devel
-BuildRequires: gnome-sharp2
+BuildRequires: gnome-sharp2-devel
 BuildRequires: mono-tools
 BuildRequires: mono-devel
 BuildRoot:     %{_tmppath}/%{name}-%{version}-buildroot
