@@ -23,7 +23,7 @@ BuildRequires: mono-tools
 BuildRequires: mono-devel
 BuildRoot:     %{_tmppath}/%{name}-%{version}-buildroot
 BuildArch: noarch
-%define _requires_exceptions ^lib.*
+%define _requires_exceptions ^lib.*\\|lib.*glib2.0_0
 
 %description 
 GtkSourceView-sharp is a C# language binding for the gtksourceview widget.
