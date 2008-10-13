@@ -20,7 +20,7 @@ Group:         System/Libraries
 Requires:      gtksourceview1.0
 BuildRequires: gtksourceview1-devel
 BuildRequires: gnome-sharp2-devel
-BuildRequires: gnome-print-sharp
+BuildRequires: gnome-desktop-sharp-devel
 BuildRequires: mono-tools
 BuildRequires: mono-devel
 BuildRoot:     %{_tmppath}/%{name}-%{version}-buildroot
