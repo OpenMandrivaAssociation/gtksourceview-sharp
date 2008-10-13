@@ -1,7 +1,7 @@
 %define name    gtksourceview-sharp
 %define oname %name-2.0
 %define version 0.12
-%define release %mkrel 2
+%define release %mkrel 3
 %if %mdkversion >= 200600
 %define pkgconfigdir %_datadir/pkgconfig
 %else
