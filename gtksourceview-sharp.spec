@@ -13,6 +13,7 @@ Name:          %{name}
 Version:       %{version}
 Release:       %{release}
 Source:        http://go-mono.com/sources/gtksourceview-sharp-2.0/%oname-%version.tar.bz2
+Patch:	       gtksourceview-sharp2-gnome-print.patch
 URL:           http://www.go-mono.com
 License:       LGPL
 Group:         System/Libraries
@@ -43,6 +44,8 @@ Monodoc format.
 
 %prep
 %setup -q -n %{oname}-%{version}
+%patch -p0
+autoreconf
 
 %build
 ./configure --prefix=%_prefix --libdir=%_libdir
