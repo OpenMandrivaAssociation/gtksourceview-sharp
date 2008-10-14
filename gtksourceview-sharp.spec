@@ -33,7 +33,7 @@ GtkSourceView-sharp is a C# language binding for the gtksourceview widget.
 %package devel
 Summary: Development files for %name
 Group: Development/Other
-Requires: %name = %version-%releaes
+Requires: %name = %version-%release
 %description devel
 GtkSourceView-sharp is a C# language binding for the gtksourceview widget.
 
