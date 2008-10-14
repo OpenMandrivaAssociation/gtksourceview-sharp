@@ -1,7 +1,7 @@
 %define name    gtksourceview-sharp
 %define oname %name-2.0
 %define version 0.12
-%define release %mkrel 3
+%define release %mkrel 5
 %if %mdkversion >= 200600
 %define pkgconfigdir %_datadir/pkgconfig
 %else
@@ -28,6 +28,13 @@ BuildArch: noarch
 %define _requires_exceptions ^lib.*\\|lib.*glib2.0_0
 
 %description 
+GtkSourceView-sharp is a C# language binding for the gtksourceview widget.
+
+%package devel
+Summary: Development files for %name
+Group: Development/Other
+Requires: %name = %version-%releaes
+%description devel
 GtkSourceView-sharp is a C# language binding for the gtksourceview widget.
 
 %package doc
@@ -67,6 +74,9 @@ rm -f %{buildroot}/%{_datadir}/gtksourceview-1.0/language-specs/nemerle.lang
 %doc AUTHORS ChangeLog README NEWS
 %monoprefix/mono/gac/*
 %monoprefix/mono/gtksourceview-sharp-2.0/
+
+%files devel
+%defattr(-,root,root)
 %{pkgconfigdir}/*
 %{_datadir}/gapi/gtksourceview-api.xml
 
