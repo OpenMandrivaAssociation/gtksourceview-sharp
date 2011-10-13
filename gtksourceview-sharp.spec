@@ -53,6 +53,7 @@ Monodoc format.
 %prep
 %setup -q -n %{oname}-%{version}
 %patch -p0
+
 autoreconf
 
 %build
