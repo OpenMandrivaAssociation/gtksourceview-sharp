@@ -14,7 +14,7 @@ Version:       %{version}
 Release:       %{release}
 Source:        http://go-mono.com/sources/gtksourceview-sharp-2.0/%oname-%version.tar.bz2
 Patch:	       gtksourceview-sharp2-gnome-print.patch
-URL:           http://www.go-mono.com
+URL:           https://www.go-mono.com
 License:       LGPL
 Group:         System/Libraries
 Requires:      gtksourceview1.0
