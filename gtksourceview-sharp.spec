@@ -18,6 +18,11 @@ URL:           https://www.go-mono.com
 License:       LGPL
 Group:         System/Libraries
 Requires:      gtksourceview1.0
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: gtksourceview1-devel
 BuildRequires: gnome-sharp2-devel
 BuildRequires: gnome-desktop-sharp-devel
