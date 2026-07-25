@@ -1,7 +1,7 @@
 %define name    gtksourceview-sharp
 %define oname %name-2.0
 %define version 0.12
-%define release %mkrel 8
+%define release 9
 %if %mdkversion >= 200600
 %define pkgconfigdir %_datadir/pkgconfig
 %else
@@ -155,43 +155,43 @@ fi
 + Revision: 96931
 - Import gtksourceview-sharp
 
-* Thu Dec 14 2006 Götz Waschk <waschk@mandriva.org> 0.10-7mdv2007.1
+* Thu Dec 14 2006 Gï¿½tz Waschk <waschk@mandriva.org> 0.10-7mdv2007.1
 - remove nemerle.lang, now in gtksourceview
 
-* Fri Sep 22 2006 Götz Waschk <waschk@mandriva.org> 0.10-6mdv2007.0
+* Fri Sep 22 2006 Gï¿½tz Waschk <waschk@mandriva.org> 0.10-6mdv2007.0
 - split monodoc docs to separate package
 
-* Wed Jul 19 2006 Götz Waschk <waschk@mandriva.org> 0.10-5mdv2007.0
+* Wed Jul 19 2006 Gï¿½tz Waschk <waschk@mandriva.org> 0.10-5mdv2007.0
 - fix postun script
 
-* Thu Sep 29 2005 Götz Waschk <waschk@mandriva.org> 0.10-4mdk
+* Thu Sep 29 2005 Gï¿½tz Waschk <waschk@mandriva.org> 0.10-4mdk
 - regenerate monodoc index on postun
 
 * Fri Aug 26 2005 GÃ¶tz Waschk <waschk@mandriva.org> 0.10-3mdk
 - rebuild for new gtk-sharp2
 
-* Sat Jul 02 2005 Götz Waschk <waschk@mandriva.org> 0.10-2mdk
+* Sat Jul 02 2005 Gï¿½tz Waschk <waschk@mandriva.org> 0.10-2mdk
 - fix deps
 
-* Sat May 21 2005 Götz Waschk <waschk@mandriva.org> 0.10-1mdk
+* Sat May 21 2005 Gï¿½tz Waschk <waschk@mandriva.org> 0.10-1mdk
 - update file list
 - new source URL
 - New release 0.10
 
-* Fri Apr 29 2005 Götz Waschk <waschk@mandriva.org> 0.7-5mdk
+* Fri Apr 29 2005 Gï¿½tz Waschk <waschk@mandriva.org> 0.7-5mdk
 - move mono files to /usr/lib
 - fix pkgconfig file location
 
-* Sat Apr 02 2005 Götz Waschk <waschk@linux-mandrake.com> 0.7-4mdk
+* Sat Apr 02 2005 Gï¿½tz Waschk <waschk@linux-mandrake.com> 0.7-4mdk
 - fix dep on libgtksourceview
 
-* Fri Apr 01 2005 Götz Waschk <waschk@linux-mandrake.com> 0.7-3mdk
+* Fri Apr 01 2005 Gï¿½tz Waschk <waschk@linux-mandrake.com> 0.7-3mdk
 - fix buildrequires
 
-* Thu Mar 31 2005 Götz Waschk <waschk@linux-mandrake.com> 0.7-2mdk
+* Thu Mar 31 2005 Gï¿½tz Waschk <waschk@linux-mandrake.com> 0.7-2mdk
 - fix buildrequires
 
-* Thu Mar 31 2005 Götz Waschk <waschk@linux-mandrake.com> 0.7-1mdk
+* Thu Mar 31 2005 Gï¿½tz Waschk <waschk@linux-mandrake.com> 0.7-1mdk
 - make it noarch
 - update file list
 - New release 0.7
@@ -199,19 +199,19 @@ fi
 * Tue Nov 16 2004 Marcel Pol <mpol@mandrake.org> 0.5-4mdk
 - remove conflicting file vbnet.lang with gtksourceview-1.1.1
 
-* Thu Jul 29 2004 Götz Waschk <waschk@linux-mandrake.com> 0.5-3mdk
+* Thu Jul 29 2004 Gï¿½tz Waschk <waschk@linux-mandrake.com> 0.5-3mdk
 - rebuild for new rpm
 
-* Fri Jul 02 2004 Götz Waschk <waschk@linux-mandrake.com> 0.5-2mdk
+* Fri Jul 02 2004 Gï¿½tz Waschk <waschk@linux-mandrake.com> 0.5-2mdk
 - remove docs, they are already in the monodoc dir
 
-* Fri Jul 02 2004 Götz Waschk <waschk@linux-mandrake.com> 0.5-1mdk
+* Fri Jul 02 2004 Gï¿½tz Waschk <waschk@linux-mandrake.com> 0.5-1mdk
 - call monodoc in the post scripts
 - add monodoc stuff
 - fix installation
 - new version
 
-* Tue Jun 22 2004 Götz Waschk <waschk@linux-mandrake.com> 0.3-3mdk
+* Tue Jun 22 2004 Gï¿½tz Waschk <waschk@linux-mandrake.com> 0.3-3mdk
 - remove generic docs
 - fix configure call
 - fix buildrequires
